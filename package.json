@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@apehead/monorepo-playground",
+  "version": "0.0.0",
+  "description": "A playground to test different monorepo approaches",
+  "engines": {
+    "node": ">=10.4.0",
+    "yarn": ">=1.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}
