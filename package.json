@@ -17,7 +17,7 @@
     "build": "lerna exec --parallel 'babel src --root-mode upward --out-dir dist --source-maps --ignore **/*.spec.js,**/*.test.js --delete-dir-on-start --no-comments --compact --minified'",
     "prerelease": "yarn lint && yarn test && yarn build",
     "release": "lerna publish",
-    "release:ci": "lerna publish --from-git"
+    "release:ci": "lerna publish --from-git --yes"
   },
   "jest": {
     "roots": [
