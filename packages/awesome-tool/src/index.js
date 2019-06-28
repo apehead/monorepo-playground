@@ -1,1 +1,1 @@
-export const run = () => 'Running';
+export const run = () => 'Running...';
