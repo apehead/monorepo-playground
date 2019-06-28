@@ -1,2 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.printTime=void 0;const printTime=()=>{const dateTime=new Date;return dateTime.toISOString()};exports.printTime=printTime;
-//# sourceMappingURL=index.js.map

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/index.js"],"names":["printTime","dateTime","Date","toISOString"],"mappings":"+FAAO,KAAMA,CAAAA,SAAS,CAAG,IAAM,CAC7B,KAAMC,CAAAA,QAAQ,CAAG,GAAIC,CAAAA,IAArB,CACA,MAAOD,CAAAA,QAAQ,CAACE,WAAT,EACR,CAHM,C","sourcesContent":["export const printTime = () => {\n  const dateTime = new Date();\n  return dateTime.toISOString();\n};\n"],"file":"index.js"}

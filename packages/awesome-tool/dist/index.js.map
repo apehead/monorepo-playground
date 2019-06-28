@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/index.js"],"names":["run"],"mappings":"yFAAO,KAAMA,CAAAA,GAAG,CAAG,IAAM,SAAlB,C","sourcesContent":["export const run = () => 'Running';\n"],"file":"index.js"}
