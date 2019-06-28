@@ -1,20 +1,17 @@
 {
   "version": "0.1.0",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "npmClient": "yarn",
+  "npmClientArgs": ["--no-lockfile"],
   "useWorkspaces": true,
   "command": {
     "publish": {
+      "ignoreChanges": ["*.md", "*.txt"],
       "conventionalCommits": true,
       "registry": "http://localhost:4873",
       "access": "public",
       "npmClient": "yarn",
-      "allowBranch": [
-        "master",
-        "lerna-yarn-workspaces"
-      ]
+      "allowBranch": ["master", "lerna-yarn-workspaces"]
     }
   }
 }

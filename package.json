@@ -4,7 +4,8 @@
   "description": "A playground to test different monorepo approaches",
   "engines": {
     "node": ">=10.4.0",
-    "yarn": ">=1.0.0"
+    "yarn": ">=1.0.0",
+    "npm": ">= 5.2.0"
   },
   "workspaces": [
     "packages/*"
@@ -15,7 +16,8 @@
     "lint": "eslint .",
     "build": "lerna exec --parallel 'babel src --root-mode upward --out-dir dist --source-maps --ignore **/*.spec.js,**/*.test.js --delete-dir-on-start --no-comments --compact --minified'",
     "prerelease": "yarn lint && yarn test && yarn build",
-    "release": "lerna publish"
+    "release": "lerna publish",
+    "release:ci": "lerna publish --from-git"
   },
   "jest": {
     "roots": [
