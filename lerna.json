@@ -1,5 +1,15 @@
 {
   "version": "0.0.0",
   "packages": ["packages/*"],
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "registry": "http://localhost:4873",
+      "access": "public",
+      "npmClient": "yarn",
+      "allowBranch": ["master"]
+    }
+  }
 }
