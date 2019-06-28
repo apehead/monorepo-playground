@@ -1,4 +1,4 @@
 export const printTime = () => {
-  const dateTime = new Date();
-  return dateTime.toISOString();
+  const datetime = new Date();
+  return datetime.toISOString();
 };
