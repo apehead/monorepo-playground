@@ -12,9 +12,11 @@
     "publish": {
       "ignoreChanges": [
         "*.md",
-        "*.txt"
+        "*.txt",
+        "*.test.js"
       ],
       "conventionalCommits": true,
+      "githubRelease": true,
       "registry": "http://localhost:4873",
       "access": "public",
       "npmClient": "yarn",
