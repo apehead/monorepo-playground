@@ -6,8 +6,7 @@
   "useWorkspaces": true,
   "command": {
     "version": {
-      "githubRelease": true,
-      "creteRelease": "github",
+      "createRelease": "github",
       "conventionalCommits": true
     },
     "publish": {
