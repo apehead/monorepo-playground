@@ -1,4 +1,5 @@
-export const printTime = () => {
-  const datetime = new Date();
-  return datetime.toISOString();
-};
+const getDate = () => new Date();
+
+const dateToIsoString = date => date.toISOString();
+
+export const printTime = () => dateToIsoString(getDate());
