@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/apehead/monorepo-playground/compare/v1.0.2...v1.0.3) (2019-06-29)
+
+
+### Bug Fixes
+
+* **Awesome fix:** Awesome :D ([3ac4671](https://github.com/apehead/monorepo-playground/commit/3ac4671))
+
+
+
+
+
 ## [1.0.2](https://github.com/apehead/monorepo-playground/compare/v1.0.1...v1.0.2) (2019-06-29)
 
 
