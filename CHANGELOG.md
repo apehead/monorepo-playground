@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/apehead/monorepo-playground/compare/v0.2.2...v0.2.3) (2019-06-29)
+
+
+### Bug Fixes
+
+* **release notes generation:** Try to fix release notes generation ([9085f1e](https://github.com/apehead/monorepo-playground/commit/9085f1e))
+
+
+
+
+
 ## [0.2.2](https://github.com/apehead/monorepo-playground/compare/v0.2.1...v0.2.2) (2019-06-29)
 
 **Note:** Version bump only for package monorepo-playground
