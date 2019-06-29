@@ -1,6 +1,6 @@
 {
   "name": "@apehead/print-time",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "This thing prints time",
   "main": "dist/index.js"
 }

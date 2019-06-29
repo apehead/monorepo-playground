@@ -1,9 +1,9 @@
 {
   "name": "@apehead/awesome-tool",
-  "version": "0.2.6",
+  "version": "1.0.0",
   "description": "An awesome tool",
   "main": "dist/index.js",
   "dependencies": {
-    "@apehead/print-time": "^0.2.2"
+    "@apehead/print-time": "^1.0.0"
   }
 }

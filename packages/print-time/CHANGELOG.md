@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/apehead/monorepo-playground/compare/v0.2.6...v1.0.0) (2019-06-29)
+
+**Note:** Version bump only for package @apehead/print-time
+
+
+
+
+
 ## [0.2.2](https://github.com/apehead/monorepo-playground/compare/v0.2.1...v0.2.2) (2019-06-29)
 
 **Note:** Version bump only for package @apehead/print-time
