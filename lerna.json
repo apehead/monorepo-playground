@@ -1,8 +1,12 @@
 {
-  "version": "0.2.5",
-  "packages": ["packages/*"],
+  "version": "0.2.6",
+  "packages": [
+    "packages/*"
+  ],
   "npmClient": "yarn",
-  "npmClientArgs": ["--no-lockfile"],
+  "npmClientArgs": [
+    "--no-lockfile"
+  ],
   "useWorkspaces": true,
   "command": {
     "version": {
@@ -10,8 +14,15 @@
       "conventionalCommits": true
     },
     "publish": {
-      "allowBranch": ["master", "lerna-yarn-workspaces"],
-      "ignoreChanges": ["*.md", "*.txt", "*.test.js"],
+      "allowBranch": [
+        "master",
+        "lerna-yarn-workspaces"
+      ],
+      "ignoreChanges": [
+        "*.md",
+        "*.txt",
+        "*.test.js"
+      ],
       "conventionalCommits": true,
       "githubRelease": true,
       "registry": "http://localhost:4873",
