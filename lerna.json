@@ -23,9 +23,9 @@
       "ignoreChanges": [
         "*.md",
         "*.txt",
+        "__tests__",
         "*.test.js"
-      ],
-      "conventionalCommits": true
+      ]
     }
   }
 }
