@@ -1,29 +1,18 @@
 {
   "version": "0.2.1",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "npmClient": "yarn",
-  "npmClientArgs": [
-    "--no-lockfile"
-  ],
+  "npmClientArgs": ["--no-lockfile"],
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "*.md",
-        "*.txt",
-        "*.test.js"
-      ],
+      "allowBranch": ["master", "lerna-yarn-workspaces"],
+      "ignoreChanges": ["*.md", "*.txt", "*.test.js"],
       "conventionalCommits": true,
       "githubRelease": true,
       "registry": "http://localhost:4873",
       "access": "public",
-      "npmClient": "yarn",
-      "allowBranch": [
-        "master",
-        "lerna-yarn-workspaces"
-      ]
+      "npmClient": "yarn"
     }
   }
 }

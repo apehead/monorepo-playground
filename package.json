@@ -16,8 +16,7 @@
     "lint": "eslint .",
     "build": "lerna exec --parallel 'babel src --root-mode upward --out-dir dist --source-maps --ignore **/*.spec.js,**/*.test.js --delete-dir-on-start --no-comments --compact --minified'",
     "prerelease": "yarn lint && yarn test && yarn build",
-    "release": "lerna publish",
-    "release:ci": "lerna publish --from-git --yes"
+    "release": "lerna publish --yes"
   },
   "jest": {
     "roots": [
@@ -26,7 +25,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-lerna-changelog"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "dependencies": {},
@@ -35,7 +34,7 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "commitizen": "^3.1.1",
-    "cz-lerna-changelog": "^2.0.2",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^6.0.1",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-standard": "^12.0.0",
