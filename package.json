@@ -16,7 +16,7 @@
     "lint": "eslint .",
     "build": "lerna exec --parallel 'babel src --root-mode upward --out-dir dist --source-maps --ignore **/*.spec.js,**/*.test.js --delete-dir-on-start --no-comments --compact --minified'",
     "prerelease": "yarn lint && yarn test && yarn build",
-    "release": "lerna publish  --conventional-commits --yes"
+    "release": "lerna version --github-release --conventional-commits && lerna publish --yes"
   },
   "jest": {
     "roots": [
