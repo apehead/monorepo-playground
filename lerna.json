@@ -11,7 +11,8 @@
   "command": {
     "version": {
       "createRelease": "github",
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "conventionalPrerelease": "*"
     },
     "publish": {
       "registry": "http://localhost:4873",
