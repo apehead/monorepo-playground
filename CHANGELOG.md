@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2-beta.0](https://github.com/apehead/monorepo-playground/compare/v2.0.1...v2.0.2-beta.0) (2019-07-01)
+
+
+### Bug Fixes
+
+* **A:** A ([e6a60a7](https://github.com/apehead/monorepo-playground/commit/e6a60a7))
+
+
+
+
+
 ## [2.0.1](https://github.com/apehead/monorepo-playground/compare/v2.0.0...v2.0.1) (2019-07-01)
 
 
