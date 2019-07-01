@@ -4,8 +4,12 @@ A playground to test different monorepo approaches.
 
 ## Tools
 
+This repouses the following tools to manage the monorepo:
+
 - [Lerna](https://github.com/lerna)
 - [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces)
+
+Check out the [useful links section](#useful-links).
 
 ## Development workflow
 
@@ -44,34 +48,52 @@ yarn lerna add @myscope/my-scripts --scope=@myscope/my-tool
 
 This command will install `@myscope/my-scripts` in `@myscope/my-tool` as a dependency.
 
-### Commit
+### Peer dependencies
 
-Conventional commits
+Lerna doesn't manage peer dependencies, so they should be handled manually.
 
-Automated changelog and release notes generation
+### Commits
+
+This repo follows the [conventional commits](https://www.conventionalcommits.org/) specification.<br>
+It allow us to:
+
+- automatically generating CHANGELOGs and release notes
+- automatically determining a semantic version bump
+- have a better structured commit history
+
+To create a new commit, run:
+
+```sh
+yarn commit
+```
 
 ### Running tasks
 
-Test, Lint, Build, etc
+To run a task for every package in the monorepo (e.g., test, lint), run the corresponding script defined in the root `package.json` file:
+
+```sh
+yarn test
+```
+
+If you need to execute a task in a specific package, move to that package and run the script.
 
 ### Publishing
 
-Release
+Since we are using [conventional commits](https://www.conventionalcommits.org/) (check the [commits section](#commits)), the package version will be bumped based on this information.
 
-Prerelease
+To release a new version, run:
 
-Changelog publication: requirements
+```sh
+yarn release
+```
 
-CI use `--yes` option
-https://github.com/lerna/lerna/tree/master/commands/version#--yes
-https://github.com/lerna/lerna/tree/master/commands/publish#--yes
+Also every CHANGELOG file will be updated along with the corresponding release notes.<br>
+**You will need to set the `GH_TOKEN` environment variable with a Github authentication token** to allow the automatic publication of release notes. Check this [link](https://github.com/lerna/lerna/tree/master/commands/version#--create-release-type) to learn more about this.
 
-### Yarn workspaces
+Prerelease: TODO
 
-How Yarn workspaces work
+## Useful links
 
-- https://yarnpkg.com/lang/en/docs/workspaces/
-
-How hoisting is managed
-
-- https://yarnpkg.com/blog/2018/02/15/nohoist/
+- [Lerna](https://github.com/lerna)
+- [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
+- [Hoisting in Yarn workspaces](https://yarnpkg.com/blog/2018/02/15/nohoist/)
