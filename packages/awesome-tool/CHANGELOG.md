@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-beta.0](https://github.com/apehead/monorepo-playground/compare/v1.1.0-alpha.0...v1.1.0-beta.0) (2019-07-01)
+
+**Note:** Version bump only for package @apehead/awesome-tool
+
+
+
+
+
 # [1.1.0-alpha.0](https://github.com/apehead/monorepo-playground/compare/v1.0.7-alpha.0...v1.1.0-alpha.0) (2019-07-01)
 
 **Note:** Version bump only for package @apehead/awesome-tool
