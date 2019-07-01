@@ -16,7 +16,6 @@
     "publish": {
       "registry": "http://localhost:4873",
       "access": "public",
-      "npmClient": "yarn",
       "allowBranch": [
         "master",
         "lerna-yarn-workspaces"
