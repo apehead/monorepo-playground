@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-beta.1](https://github.com/apehead/monorepo-playground/compare/v1.1.0-beta.0...v1.1.0-beta.1) (2019-07-01)
+
+
+### Features
+
+* **Fake:** Fake ([3e8aa47](https://github.com/apehead/monorepo-playground/commit/3e8aa47))
+
+
+
+
+
 # [1.1.0-beta.0](https://github.com/apehead/monorepo-playground/compare/v1.1.0-alpha.0...v1.1.0-beta.0) (2019-07-01)
 
 

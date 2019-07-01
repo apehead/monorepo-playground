@@ -1,10 +1,10 @@
 {
   "name": "@apehead/awesome-tool",
-  "version": "1.1.0-beta.0",
+  "version": "1.1.0-beta.1",
   "description": "An awesome tool",
   "main": "dist/index.js",
   "dependencies": {
-    "@apehead/print-time": "^1.1.0-beta.0"
+    "@apehead/print-time": "^1.1.0-beta.1"
   },
   "gitHead": "9d78ebac1d9a69b64a7649a246b1e13d829060cd"
 }
