@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7-alpha.0](https://github.com/apehead/monorepo-playground/compare/v1.0.6...v1.0.7-alpha.0) (2019-07-01)
+
+
+### Bug Fixes
+
+* **print-time:** Fix print-time things ([aee2016](https://github.com/apehead/monorepo-playground/commit/aee2016))
+
+
+
+
+
 ## [1.0.6](https://github.com/apehead/monorepo-playground/compare/v1.0.5...v1.0.6) (2019-07-01)
 
 **Note:** Version bump only for package monorepo-playground
