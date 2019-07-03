@@ -18,7 +18,7 @@
     "prerelease": "yarn lint && yarn test && yarn build",
     "release": "lerna publish from-package --yes",
     "release:beta": "lerna version --yes --conventional-commits --conventional-prerelease --preid beta && lerna publish from-package --yes --pre-dist-tag beta",
-    "graduate": "lerna version --yes --conventional-commits --conventional-graduate && yarn release"
+    "graduate": "lerna version --yes --conventional-commits --conventional-graduate"
   },
   "jest": {
     "roots": [

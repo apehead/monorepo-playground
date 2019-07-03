@@ -4,7 +4,7 @@ A playground to test different monorepo approaches.
 
 ## Tools
 
-This repouses the following tools to manage the monorepo:
+This repo uses the following tools to manage the monorepo:
 
 - [Lerna](https://github.com/lerna)
 - [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces)
@@ -88,9 +88,31 @@ yarn release
 ```
 
 Also every CHANGELOG file will be updated along with the corresponding release notes.<br>
-**You will need to set the `GH_TOKEN` environment variable with a Github authentication token** to allow the automatic publication of release notes. Check this [link](https://github.com/lerna/lerna/tree/master/commands/version#--create-release-type) to learn more about this.
+**You will need to set the `GH_TOKEN` environment variable with a Github authentication token** to allow the automatic publication of release notes. Check [this link](https://github.com/lerna/lerna/tree/master/commands/version#--create-release-type) to learn more about this.
 
-Prerelease: TODO
+### Prerelease
+
+Run this command to release a `beta` version:
+
+```sh
+yarn release:beta
+```
+
+The dist-tag for the npm package will be `beta`, and a coresponding tag will be set in the new commit.
+
+### Graduate
+
+Graduating a package means bumping to the non-prerelease variant of a prerelease version, eg. `package-1@1.0.0-alpha.0 => package-1@1.0.0`.
+
+To graduate prerelease versions, run:
+
+```sh
+yarn graduate
+```
+
+The graduation will be done based on the information provided by conventional commits.
+
+Check [this link](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-graduate) to learn more about graduating packages with conventional commits.
 
 ## Useful links
 
